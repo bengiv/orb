@@ -18,9 +18,6 @@
 	"entrypoints": {
 		"main": [
 			"me.bengiv.orb.OresAreBack"
-		],
-		"fabric-datagen": [
-			"me.bengiv.orb.ORBDataGenerator"
 		]
 	},
 	"mixins": [
@@ -28,7 +25,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.14.0",
-		"minecraft": "~1.19.2",
+		"minecraft": "~1.18.2",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
